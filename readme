@@ -1,0 +1,50 @@
+Project : Regional Meteorology and Advanced Weather Forecast App  
+
+App : 
+
+Complexity level : intermediate
+
+what is it ?
+
+an app with Advanced weather forecast and Meteorology detection based on a region 
+using a  gui toolkit @tkinter and @Open-Weather-API that provides realtime predictions based on complex mathematical predictions models
+
+what are its features ?
+
++ interactive UI based region detection
++ time , region and coordiante display
++ temprature 
++ humidity
++ pressure
++ windspeed 
++ description of sky pattern 
++ prediction of temperature maxima and minima for 24 hrs 
++ prediction of weather for next  6 days 
+
+
+how its implemented ?
+
+-- input city  
+-- city is converted to longitude and latitude
+-- coordinates is converted into time zone and clock
+-- coordinates is relayed to Open Weather API that provides realtime data 
+-- this data is send backed to the app and all features are displayed 
+
+technologies and dependencies :
+
++ python3
++ Open-Weather-API
++ tkinter 
++ geographiclib==1.52
++ geopy==2.2.0
++ numpy==1.23.4
++ Pillow==9.3.0
++ pytz==2022.5
++ timezonefinder==6.1.6
++ urllib3==1.26.12
+
+
+
+
+
+
